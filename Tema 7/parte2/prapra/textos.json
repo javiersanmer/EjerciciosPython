@@ -1,0 +1,43 @@
+{
+    "ES": {
+        "inicio_empezar": "Jugar",
+        "inicio_configurar": "Configuración",
+
+        "juego_titulo": "BLACKJACK",
+        "juego_pedir": "Pedir carta",
+        "juego_plantarse": "Plantarse",
+        "juego_volver": "Volver",
+        "juego_ganar": "¡Ganas!",
+        "juego_perder": "Pierdes",
+        "juego_empate": "Empate",
+
+        "config_titulo_dificultad": "Dificultad",
+        "config_titulo_dinero": "Dinero inicial",
+        "config_guardar": "Guardar",
+        "config_volver": "Volver",
+
+        "dificultad_facil": "Fácil",
+        "dificultad_dificil": "Difícil"
+    },
+
+    "EN": {
+        "inicio_empezar": "Play",
+        "inicio_configurar": "Settings",
+
+        "juego_titulo": "BLACKJACK",
+        "juego_pedir": "Hit",
+        "juego_plantarse": "Stand",
+        "juego_volver": "Back",
+        "juego_ganar": "You win!",
+        "juego_perder": "You lose",
+        "juego_empate": "Draw",
+
+        "config_titulo_dificultad": "Difficulty",
+        "config_titulo_dinero": "Starting money",
+        "config_guardar": "Save",
+        "config_volver": "Back",
+
+        "dificultad_facil": "Easy",
+        "dificultad_dificil": "Hard"
+    }
+}

@@ -1,0 +1,4 @@
+intentos=10
+numero_min=1
+numero_max=10
+pistas=si

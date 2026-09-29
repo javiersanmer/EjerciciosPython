@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "marca": "Dell",
+    "modelo": "XPS 13",
+    "precio": 1299.99,
+    "especificaciones": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB",
+      "almacenamiento": "512GB SSD",
+      "pantalla": "13.4 pulgadas"
+    },
+    "valoraciones": [
+      {"usuario": "Ana", "puntuacion": 5, "comentario": "Muy ligero y potente"},
+      {"usuario": "Luis", "puntuacion": 4, "comentario": "Buen rendimiento pero caro"}
+    ]
+  },
+  {
+    "id": 2,
+    "marca": "Apple",
+    "modelo": "MacBook Air M2",
+    "precio": 1499.99,
+    "especificaciones": {
+      "cpu": "Apple M2",
+      "ram": "8GB",
+      "almacenamiento": "256GB SSD",
+      "pantalla": "13.6 pulgadas"
+    },
+    "valoraciones": [
+      {"usuario": "Carlos", "puntuacion": 5, "comentario": "Silencioso y rápido"},
+      {"usuario": "Marta", "puntuacion": 4, "comentario": "Batería excelente"}
+    ]
+  },
+  {
+    "id": 3,
+    "marca": "Lenovo",
+    "modelo": "ThinkPad X1 Carbon",
+    "precio": 1399.99,
+    "especificaciones": {
+      "cpu": "Intel Core i5",
+      "ram": "16GB",
+      "almacenamiento": "1TB SSD",
+      "pantalla": "14 pulgadas"
+    },
+    "valoraciones": [
+      {"usuario": "Pedro", "puntuacion": 5, "comentario": "Perfecto para trabajar"},
+      {"usuario": "Lucia", "puntuacion": 4, "comentario": "Muy resistente"}
+    ]
+  },
+  {
+    "id": 4,
+    "marca": "HP",
+    "modelo": "Pavilion 15",
+    "precio": 799.99,
+    "especificaciones": {
+      "cpu": "Intel Core i5",
+      "ram": "8GB",
+      "almacenamiento": "512GB SSD",
+      "pantalla": "15.6 pulgadas"
+    },
+    "valoraciones": [
+      {"usuario": "Javier", "puntuacion": 4, "comentario": "Buena relación calidad-precio"},
+      {"usuario": "Elena", "puntuacion": 3, "comentario": "Pantalla mejorable"}
+    ]
+  }
+]

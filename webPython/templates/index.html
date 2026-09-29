@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+    <h1>Quiz de Programación</h1>
+
+    <form action="/resultado" method="post">
+
+        {% for p in preguntas %}
+        <fieldset style="margin-bottom:1rem;">
+            <legend>{{ loop.index }}. {{ p.texto }}</legend>
+
+            {% for op in p.opciones %}
+            <label>
+                <input type="radio" name="q{{ p.id }}" value="{{ op.id }}" required>
+                {{ op.texto }}
+            </label>
+            {% endfor %}
+
+        </fieldset>
+        {% endfor %}
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</body>
+</html>

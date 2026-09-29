@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado del Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+        }
+
+        .ok {
+            color: green;
+        }
+
+        .fail {
+            color: red;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Resultado del Quiz</h1>
+
+    <h2>
+        Has acertado {{ aciertos }} de {{ total }}
+    </h2>
+
+    <hr>
+
+    {% for d in detalles %}
+    <div class="card">
+
+        <h3>{{ d.pregunta }}</h3>
+
+        <p>
+            Tu respuesta: 
+            <strong class="{{ 'ok' if d.acierto else 'fail' }}">
+                {{ d.elegido_texto or "Sin respuesta" }}
+            </strong>
+        </p>
+
+        <p>
+            Respuesta correcta: 
+            <strong class="ok">
+                {{ d.correcta_texto }}
+            </strong>
+        </p>
+
+        <p>
+            Resultado:
+            {% if d.acierto %}
+                <span class="ok">✔ Correcto</span>
+            {% else %}
+                <span class="fail">✘ Incorrecto</span>
+            {% endif %}
+        </p>
+
+    </div>
+    {% endfor %}
+
+    <a href="/" style="display:inline-block;margin-top:1rem;">
+        🔁 Volver al quiz
+    </a>
+
+</body>
+</html>

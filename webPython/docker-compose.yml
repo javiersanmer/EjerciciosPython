@@ -1,0 +1,13 @@
+
+services:
+  flask-quiz:
+    build: .
+    container_name: flask-quiz
+    ports:
+      - "5002:5000"
+    volumes:
+      - .:/app
+      - quiz_data:/app/data
+    restart: unless-stopped
+volumes:
+  quiz_data:
