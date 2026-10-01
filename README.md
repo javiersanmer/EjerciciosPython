@@ -217,17 +217,3 @@ Cada unidad contiene **ejercicios relacionados con los contenidos estudiados en 
 * GitHub
 
 ---
-
-## Objetivo
-
-El objetivo de este repositorio es recopilar los ejercicios realizados durante el aprendizaje de Python y mostrar la aplicación práctica de los diferentes contenidos trabajados a lo largo del curso.
-
-Los ejercicios están organizados por unidades para facilitar la consulta y mostrar la evolución desde los fundamentos de programación hasta conceptos como la Programación Orientada a Objetos, la gestión de ficheros, las interfaces gráficas y las Bases de Datos Orientadas a Objetos.
-
----
-
-## Nota
-
-Este repositorio tiene un propósito principalmente académico y práctico.
-
-Los programas incluidos corresponden a ejercicios realizados para practicar y consolidar los contenidos de las diferentes unidades.
